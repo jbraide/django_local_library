@@ -28,7 +28,7 @@ SECRET_KEY = os.environ.get(
 DEBUG = os.environ.get('DJANGO_DEBUG', '' != 'False')
 # export DJANGO_DEBUG = False
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['frozen-lake-90158.herokuapp.com', '127.0.0.1']
 
 
 # Application definition
